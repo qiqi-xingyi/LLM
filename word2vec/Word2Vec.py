@@ -204,5 +204,5 @@ if __name__ == "__main__":
 
     # Print out a few similarity results
     print("\nSample Word Similarities:")
-    for (w1, w2, sim) in similarities[:10]:  # just showing first 10 for brevity
+    for (w1, w2, sim) in similarities[:10]:
         print(f"Similarity({w1}, {w2}) = {sim:.4f}")
